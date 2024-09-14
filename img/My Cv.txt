@@ -1,0 +1,42 @@
+
+Lucky Daniel Dunamis .C.
+Ojo Barracks, Lagos Nigeria.
+07012191092
+luckudanier@gmail.com
+LinkedIn profile{ https://www.linkedin.com/in/dunamis-chukwuemeka-a338892b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app }
+Git hub Profile { https://github.com/Lucky-Daniel-Dunamis }
+  
+  
+  Professional Summary
+Highly skilled web developer, app developer,and web designer with [X] years of experience in creating responsive, user-friendly websites and applications. Proficient in front-end and back-end technologies, UI/UX design, and mobile app development. Dedicated to delivering high-quality, scalable solutions that meet client and user needs. Passionate about staying up-to-date with the latest industry trends and continuously improving my skills.
+  
+  
+  Technical Skills
+Web Development: HTML5, CSS3, JavaScript (ES6+), TypeScript, React.js, Angular, Vue.js
+Backend Development: Node.js, Express.js, Python (Django, Flask), PHP, Ruby on Rails
+Database Management: MySQL, PostgreSQL, MongoDB, Firebase
+Mobile App Development: React Native, Flutter, Swift, Kotlin
+Web Design: UI/UX Design, Figma, Adobe XD, Sketch, Wireframing, Prototyping
+Version Control: Git, GitHub, GitLab
+Tools: Webpack, Gulp, Docker, Jenkins, AWS, Heroku, Netlify
+Testing: Jest, Mocha, Selenium, Cypress
+  
+  Professional Experience
+ Developed and maintained dynamic, responsive websites using HTML, CSS, JavaScript, and frameworks like React.js and Vue.js.
+Designed user interfaces with a focus on usability and accessibility, creating prototypes and wireframes using Figma and Adobe XD.
+Collaborated with back-end developers to integrate APIs and enhance website functionality.
+Optimized website performance, reducing load times by [X]% through code refactoring and caching strategies.
+Managed version control using Git and deployed websites using AWS and Netlify.  
+
+   App Developer
+ Designed and developed cross-platform mobile applications using React Native and Flutter for Android and iOS.
+Implemented RESTful APIs to connect apps with cloud-based databases such as Firebase and PostgreSQL.
+Integrated third-party services like payment gateways, social media logins, and push notifications.
+Performed thorough testing and debugging to ensure high performance and user experience across different devices.
+Deployed apps to Google Play Store and Apple App Store, maintaining updates and user feedback.
+   
+  Personal Attributes
+Strong problem-solving skills and attention to detail.
+Excellent team player with experience in agile methodologies.
+Effective communicator with the ability to explain technical concepts to non-technical stakeholders.
+

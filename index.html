@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucans Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9a4760b8fc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                 <h1 class="one">L<span class="em">ucans.</span></h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span class="two">Lucky</span><br>Dunamis From Nigeria</h1>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- About Me -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/About2.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub">About Me</h1>
+                    <p>As a web developer, I specialize in creating responsive, dynamic websites and web applications. With a strong focus on both front-end design and back-end functionality, I use technologies like HTML, CSS, JavaScript, and various frameworks to build user-friendly, efficient digital experiences.</p>
+
+                    <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web design</span><br>Web design</li>
+                            <li><span>Web development</span><br>Web Development</li>
+                            <li><span>App Development</span><br>Building Andriod/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>UI/UX Design Training at Side Hustle</li>
+                            <li><span>2022 - 2023</span><br>Team lead at GroceryApp</li>
+                            <li><span>2024 - Current</span><br>My Portfolio</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Web Development Training at Side Hustle</li>
+                            <li><span>2023</span><br>Web Design at Free Code Camp</li>
+                            <li><span>2023</span>App Development at Side Hustle<br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- services -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+             <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Desgin</h2>
+                <p>I create degins that not only look great but also provide an intuitive user experience</p>
+                <a href="#">Learn more</a>
+             </div>
+             <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Development</h2>
+                <p>As an app developer, I focus on designing, building, and maintaining mobile applications that run on platforms like Android, iOS, or cross-platform environments. </p>
+                <a href="#">Learn more</a>
+             </div>
+             <div>
+                <i class="fa-brands fa-square-web-awesome-stroke"></i>
+                <h2>Web Development</h2>
+                <p>As a web developer, I center on designing, building, and maintaining websites and web applications. I work with a variety of technologies and frameworks to create functional, visually appealing, and user-friendly web experiences.</p>
+                <a href="#">Learn more</a>
+             </div>
+        </div>
+    </div>
+ </div>
+
+ <!-- Portfolio -->
+
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/Work.png" alt="">
+                <div class="layer">
+                    <h3>Website</h3>
+                    <p>The site gives more info about me</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/port.png" alt="">
+                <div class="layer">
+                    <h3>Website</h3>
+                    <p>The site gives more info about me</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work2.png" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The site gives more info about me</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn">See more</a>
+    </div>
+ </div>
+
+ <!-- contact -->
+
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>luckudanielr@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>07012191092</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/prosper.gold.9237"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/DunamisChu64121?t=hmt0x6iyPPNSz1ON8YxO6Q&s=09"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/luckydanieldunamis?igsh=MWxsaDh6ODducjBqOA=="><i class="fa-brands fa-intagram"></i></a>
+                    <a href="https://www.linkedin.com/in/dunamis-chukwuemeka-a338892b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.tiktok.com/@lucans00?_t=8piXTnctY50&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="http://t.me/Lucans01"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="http://Wa.me/+2347012191092"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <a href="img/My Cv.txt" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form action="" name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="lucans@example.com" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Lucans. <i class="fa-solid fa-heart"></i></p>
+    </div>
+ </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyiaDm6jykxRZ57mIH1IrDgYHAEr-WIltITZIDIORpewVHaUFecUEWmQ2IARyjvsym6HA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
